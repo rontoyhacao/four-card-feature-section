@@ -1,0 +1,36 @@
+@media (min-width: 280px) and (max-width: 1024px) {
+    main {
+        .wrapper {
+            header {
+                .header-wrapper {
+                    h1 {
+                        font-size: 24px;
+                        line-height: normal;
+                    }
+                }
+            }
+            section {
+                .box-grid-wrapper {
+                    margin-top: 20px;
+                    .box-1 {
+                        transform: none;
+                    }
+                    .box-3 {
+                        transform: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1025px) and (max-width: 1424px) {
+    main {
+        .wrapper {
+            section {
+                .box-grid-wrapper {
+                    margin-bottom: 200px;
+                }
+            }
+        }
+    }
+}
